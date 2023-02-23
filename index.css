@@ -1,0 +1,72 @@
+/* Stylesheet for index.html */
+
+/* Adding custom fonts */
+
+
+/* Stylizing Starts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.area {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navbar styling */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #6db6aa;
+    font-family: 'Camptonb', sans-serif;
+}
+
+.navbar .area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Camptonb', sans-serif;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+/* home styling */
+
+h1 {
+    font-family: 'Camptonb', sans-serif;
+}
+
+.home {
+    display: flex;
+    background: url(images/vijay-homeimg2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    min-height: 500px;
+    font-family: 'Camptonl', sans-serif;
+}
+.home .area {
+    margin: auto 0 auto 40px;
+}
